@@ -53,7 +53,7 @@ void ofApp::draw(){
     ofEnableDepthTest();
     cam.begin();
     plane.drawWireframe();
-    tube1.drawTubeRings();
+    tube1.draw();
     tube2.draw();
     tube3.draw();
     cam.end();
