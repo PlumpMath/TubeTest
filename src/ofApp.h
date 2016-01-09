@@ -24,11 +24,13 @@ class ofApp : public ofBaseApp{
     
     ofxTubePrimitive tube1;
     ofxTubePrimitive tube2;
+    ofxTubePrimitive tube3;
     ofEasyCam cam;
     ofLight light;
     ofPlanePrimitive plane;
     vector<ofVec3f> container1;
     vector<ofVec3f> container2;
+    vector<ofVec3f> container3;
     
 		
 };
